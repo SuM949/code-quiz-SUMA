@@ -8,12 +8,12 @@
 }
 
 body{
-    background: #aacbee;
+    background: #000102;
 }
 
 ::selection{
     color: #fff;
-    background: #1c61aa;
+    background: #5d9ee4;
 }
 
 .start_btn,
@@ -40,7 +40,7 @@ body{
 .start_btn button{
     font-size: 25px;
     font-weight: 500;
-    color: #d6c2da;
+    color: #a33bb8;
     padding: 15px 30px;
     outline: none;
     border: none;
@@ -82,7 +82,7 @@ body{
 
 .info_box .info-list .info span{
     font-weight: 600;
-    color: #1966b8;
+    color: #2b333b;
 }
 .info_box .buttons{
     height: 60px;
@@ -109,7 +109,7 @@ body{
 
 .quiz_box{
     width: 550px;
-    background: #fff;
+    background: rgb(243, 243, 243);
     border-radius: 5px;
     transform: translate(-50%, -50%) scale(0.9);
     opacity: 0;
@@ -122,7 +122,7 @@ body{
     z-index: 2;
     height: 70px;
     padding: 0 30px;
-    background: #fff;
+    background: rgb(238, 238, 238);
     border-radius: 5px 5px 0 0;
     display: flex;
     align-items: center;
@@ -136,8 +136,8 @@ body{
 }
 
 .quiz_box header .timer{
-    color: #004085;
-    background: #cce5ff;
+    color: #d3e8ff;
+    background: #538ece;
     border: 1px solid #b8daff;
     height: 45px;
     padding: 0 8px;
@@ -173,7 +173,7 @@ body{
     bottom: 0px;
     left: 0px;
     height: 3px;
-    background: #007bff;
+    background: #5d7b9b;
 }
 
 section{
@@ -223,8 +223,8 @@ section .option_list .option.correct{
 
 section .option_list .option.incorrect{
     color: #721c24;
-    background: #f8d7da;
-    border: 1px solid #f5c6cb;
+    background: #917679;
+    border: 1px solid #e2c4c7;
 }
 
 section .option_list .option.disabled{
@@ -250,7 +250,7 @@ section .option_list .option .icon{
 
 .option_list .option .icon.cross{
     color: #a42834;
-    background: #f8d7da;
+    background: #caa2a6;
     border-color: #a42834;
 }
 
@@ -323,7 +323,7 @@ footer button.show{
 
 .result_box .icon{
     font-size: 100px;
-    color: #007bff;
+    color: #878088;
     margin-bottom: 10px;
 }
 
@@ -369,7 +369,7 @@ footer button.show{
 }
 
 .buttons button.restart:hover{
-    background: #0263ca;
+    background: #5585b9;
 }
 
 .buttons button.quit{
