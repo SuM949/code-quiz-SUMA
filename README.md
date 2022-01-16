@@ -6,3 +6,6 @@ In it, you will find:
 -A "Rules" display that will inform you on the rules
 -The main quiz complete with informative and interactive elements
 -And a high scores section where you can jot down your initials
+
+links:
+http://127.0.0.1:5501/index.html
